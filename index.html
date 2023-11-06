@@ -1,25 +1,75 @@
+<style>
+    h2, h5, p {
+        text-align: center;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo Bootstrap</title>
+    <title>Landing Page TCC</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="d-flex flex-row align-items-center">
-        <div class="texto" style="margin-left: 10rem; padding: 5rem">
-            <h1>Curso Front-End</h1>
-            <h2>Não perca essa chance!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Voluptate explicabo iure a.</p>
-            <button class="btn btn-primary">Inscreva-se</button>
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Plataforma de Escritório Virtual Gamificado</h1>
+        <p>Transformando a colaboração e o engajamento de equipes remotas</p>
+    </header>
+    
+    <section class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>O que oferecemos</h2>
+                <p>Desenvolvemos uma plataforma inovadora que integra elementos de gamificação em um ambiente de escritório virtual para impulsionar a colaboração e o engajamento da sua equipe remota.</p>
+                <img src="img.png" alt="Plataforma Gamificada" class="img-fluid">
+            </div>
         </div>
+    </section>
 
-        <div class="img">
-            <img style="width: 450px" src="img.png">
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2>Recursos Principais</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="icon1.png" class="card-img-top" alt="Recurso 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Jornadas de acordo com seus objetivos</h5>
+                            <p class="card-text">Crie jornadas por objetivos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="icon2.png" class="card-img-top" alt="Recurso 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Personalize de acordo com a maturidade do seu time</h5>
+                            <p class="card-text">Defina regras personalizadas por ciclo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="icon3.png" class="card-img-top" alt="Recurso 3" width="50">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultura Organizacional</h5>
+                            <p class="card-text">Leve os jogadores para um ambiente imersivo no mundo gamer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Sua Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
